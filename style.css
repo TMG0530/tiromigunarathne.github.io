@@ -76,9 +76,9 @@ nav {
 
 /* ================= HERO ================= */
 .hero {
-    background: linear-gradient(135deg, #0b0224, #9588b8);
+    background: linear-gradient(135deg, #100629, #9588b8);
     padding: 80px 0;
-    color: white blue;
+    color: white;
 }
 
 .hero-content {
@@ -154,7 +154,7 @@ nav {
 section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #000035; /* navy */
+    color: #c8bfe0; /* navy */
 }
 
 /* ================= ABOUT ================= */
