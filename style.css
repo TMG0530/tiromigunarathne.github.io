@@ -217,7 +217,7 @@ section h2 {
 }
 
 .project-card {
-    background: #a48af2;
+    background: #e3dcfa;
     padding: 25px;
     border-radius: 12px;
     margin-bottom: 25px;
@@ -237,7 +237,7 @@ section h2 {
 .project-card a {
     display: inline-block;
     margin-top: 10px;
-    color: #4da3ff; /* accent blue */
+    color: #08192b; 
     font-weight: 600;
     text-decoration: none;
 }
