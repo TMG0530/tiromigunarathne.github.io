@@ -155,8 +155,10 @@ nav {
 section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #010f26; /* navy */
+    color: #0b1f3a; /* deep navy */
+    font-weight: 700;
 }
+
 
 /* ================= ABOUT ================= */
 .about p {
