@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f2f7ff; /* very light blue */
+    background-color: #a1b3cf; /* very light blue */
     color: #1f2933;
     line-height: 1.6;
 }
@@ -76,10 +76,11 @@ nav {
 
 /* ================= HERO ================= */
 .hero {
-    background: linear-gradient(135deg, #100629, #9588b8);
+    background: linear-gradient(135deg, #0b1f3a, #1e3a8a);
     padding: 80px 0;
     color: white;
 }
+
 
 .hero-content {
     width: 90%;
