@@ -2,121 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tiromi Gunarathne | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiromi Gunarathne | Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f4f8ff;
-            color: #333;
-        }
+    <!-- Profile Icon -->
+    <link rel="icon" type="image/png" href="images/profile.jpg">
+    <link rel="apple-touch-icon" href="images/profile.jpg">
 
-        header {
-            background: linear-gradient(135deg, #0a58ca, #0d6efd);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid white;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        header h1 {
-            margin: 10px 0 5px;
-        }
-
-        header p {
-            font-size: 1.1em;
-            opacity: 0.95;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .card {
-            background: white;
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        }
-
-        h2 {
-            color: #0d6efd;
-            margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        a {
-            color: #0d6efd;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #eaf1ff;
-            color: #555;
-        }
-    </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <img src="profile.jpg.jpeg" alt="Profile Photo">
-    <h1>Tiromi Gunarathne</h1>
-    <p>Data Science & Business Analysis Undergraduate | AI & ML Enthusiast</p>
-</header>
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <div class="nav-container">
+        <div class="logo-container">
+            <img src="images/profile.jpg" alt="Tiromi Logo" class="logo-icon">
+            <h1 class="logo">Tiromi Gunarathne</h1>
+        </div>
 
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Volunteering & Leadership">Volunteering & Leadership</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Data Science and Business Analytics undergraduate with a strong interest in
-        Artificial Intelligence, Machine Learning, and data-driven problem solving.
-        I am actively involved in technical volunteering and leadership roles.
-    </p>
+        <div class="social-links">
+            <a href="https://github.com/TMgunarathne" target="_blank" class="social-icon">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" class="social-icon">LinkedIn</a>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="hero">
+    <div class="hero-content">
+
+        <div class="hero-text">
+            <h1>Hello, I'm Tiromi 👋</h1>
+            <p>
+                Data Science & Business Analysis Undergraduate <br>
+                Passionate about AI, Machine Learning & Data-Driven Solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get In Touch</a>
+                <a href="files/Tiromi_Gunarathne_CV.pdf" class="cta-button secondary" download>
+                    Download CV
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg.jpeg" alt="Tiromi Photo" class="profile-photo">
+        </div>
+
+    </div>
 </section>
 
-<section>
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>ADHD Identification using fMRI Data (3rd Yr Group Project)</strong><br>
-            Tools: Python, Machine Learning<br>
-            Description: Developed and evaluated ML models to identify ADHD using brain
-            connectivity and demographic data.
-        </li>
-        <br>
-        <li>
-            <strong>Optimising Order Wait Times in a University Canteen</strong><br>
-            Tools: Python, Data Structures<br>
-            Description: Simulated FIFO, SJF, and Priority Queue strategies to compare
-            average waiting times.
-        </li>
-    </ul>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Data Science and Business Analysis undergraduate with a strong interest in
+            Artificial Intelligence, Machine Learning, and data analytics.
+        </p>
+
+        <p>
+            I actively engage in technical volunteering and leadership roles through IEEE,
+            BCS, and university-level events, while continuously improving my analytical
+            and problem-solving skills.
+        </p>
+    </div>
 </section>
 
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>R Programming</li>
+            <li>Machine Learning</li>
+            <li>Data Analysis & EDA</li>
+            <li>SQL</li>
+            <li>Leadership & Teamwork</li>
+        </ul>
+    </div>
+    
+</section>
+<!-- ================= volunteering and leadership================= -->
 <section>
     <h2>Volunteering & Leadership</h2>
     <ul>
@@ -129,18 +112,49 @@
     </ul>
 </section>
 
-<section>
-    <h2>Skills</h2>
-    <p>Python, R, Machine Learning, Data Analysis, SQL, Leadership, Teamwork, Communication</p>
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Cafe Order Optimization System</h3>
+            <p>
+                Simulated FIFO, SJF and Priority Queue strategies using Python
+                to analyze and reduce customer waiting time.
+            </p>
+            <a href="https://github.com/TMgunarathne" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>ADHD Detection using fMRI Data</h3>
+            <p>
+                Built machine learning models using functional brain connectomes
+                and socio-demographic data.
+            </p>
+        </div>
+
+    </div>
 </section>
 
-<section>
-    <h2>Contact</h2>
-    <p>
-        LinkedIn: <a href="https://www.linkedin.com/in/tiromi-gunarathne/">Tiromi Gunarathne</a><br>
-        GitHub: <a href="https://github.com/TMG0530/TMgunarathne">TMGunarathne</a>
-    </p>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <p>
+            Email: gwtiromigunarathne@gmail.com<br>
+            LinkedIn: <a href="https://www.linkedin.com/in/tiromi-gunarathne/">Tiromi Gunarathne</a><br>
+            GitHub: <a href="https://github.com/TMG0530/TMgunarathne">TMGunarathne</a>
+            </p>
+    </div>
 </section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>© 2026 Tiromi Gunarathne. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
+
