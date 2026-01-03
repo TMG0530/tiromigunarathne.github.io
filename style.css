@@ -155,7 +155,7 @@ nav {
 section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #c8bfe0; /* navy */
+    color: #010f26; /* navy */
 }
 
 /* ================= ABOUT ================= */
@@ -183,7 +183,7 @@ section h2 {
 /* ================= VOLUNTEERING & LEADERSHIP ================= */
 
 .volunteering {
-    background-color: #a48af2;
+    background-color: #abadf7;
 }
 
 .volunteering-list {
